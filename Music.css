@@ -1,0 +1,36 @@
+#song{
+    height: 100%;
+    width: 100%;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 5px;
+    border-color:  rgb(43, 48, 53);
+    margin: 2%;
+    background-color:  rgb(43, 48, 53);
+    color: #ffffff;
+  
+}
+
+.music{
+    margin: 0 auto;
+    background-color: #ffffff42;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns on larger screens */
+    gap: 20px; /* Gap between cards */
+    padding: 20px;
+}
+
+.music img{
+    height: 375px;
+    width: 200px;
+}
+
+@media(max-width: 1001px){
+    .navbar-collapse {
+        background-color: rgb(43, 48, 53);
+    }
+}
+
+.dropdown-toggle{
+    margin-top: 100%;
+}

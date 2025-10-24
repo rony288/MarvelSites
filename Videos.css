@@ -1,0 +1,31 @@
+iframe {
+    border-radius: 25px;
+    height: 400px;
+    width: 450px;
+    transition: all 0.3s ease-in-out;
+}
+
+iframe:hover {
+    border-radius: 25px;
+    border: solid;
+    border-width: 10px;
+    border-color: rgb(17, 83, 17);
+    height: 450px;
+    width: 500px;
+}
+
+.videos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media(max-width: 1001px){
+    .navbar-collapse {
+        background-color: rgb(43, 48, 53);
+    }
+}
+
+.dropdown-toggle{
+    margin-top: 100%;
+}

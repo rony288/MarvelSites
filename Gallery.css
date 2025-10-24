@@ -1,0 +1,41 @@
+h2 {
+    margin-top: 10%;
+}
+
+@media (max-width: 1001px) {
+    .content{
+        flex-direction: column;
+        align-content: center;
+        margin-top: 15%;
+    }
+
+    .navbar-collapse {
+        background-color: rgb(43, 48, 53);
+    }
+}
+
+.dropdown-toggle{
+    margin-top: 100%;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+ .gallery img {
+    width: 450px;
+    height: 700px; 
+    border-radius: 5px;
+    transition: all 0.7s ease-in-out;
+    margin: 5px; 
+}
+
+.gallery img:hover {
+    width: 500px;
+    height: 750px;
+    border: solid;
+    border-radius: 25px;
+    border-color: rgb(25, 100, 25); 
+    border-width: 10px;
+} 
